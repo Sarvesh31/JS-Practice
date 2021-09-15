@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>DOM Manipulations, Form Validation, Regular Expressions</h2>
+    <img id="img1" onmouseover="newImg()" onmouseout="oldImg()" src="/15-09-2021/photo.jfif" width="300" />
+    <br>-----------------------
+    <form action="msg.html" onsubmit="return validate()">
+        <input type="text" id="uname" placeholder="Username">
+        <label id="lbl1" style="color: red; font-size: 13px; visibility: Hidden">*Invalid</label><br>
+        <input type="password" id="pwd" placeholder="Password">
+        <label id="lbl2" style="color: red; font-size: 13px; visibility: Hidden">*Invalid</label><br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>-----------------------
+    <form action="msg.html">
+        <input type="text" id="uname1" placeholder="Username">
+        <label id="lbl3" style="color: red; font-size: 13px; visibility: Hidden">*Invalid</label><br>
+        <input type="text" id="num1" placeholder="Phone Number">
+        <label id="lbl4" style="color: red; font-size: 13px; visibility: Hidden">*Invalid</label><br>
+        <input type="text" id="email" placeholder="Email Address">
+        <label id="lbl5" style="color: red; font-size: 13px; visibility: Hidden">*Invalid</label><br>
+        <button type="button" onclick="validation()">Submit</button>
+    </form>
+</body>
+<script type="text/javascript" src="./index.js"></script>
+
+</html>
