@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h2>Timing functions, Animations, JQuery</h2>
+    <button onclick="settimeout()" id="settimeout">Set Timeout</button>
+    <button onclick="cleartimeout()" id="cleartimeout">Clear Timeout</button>
+    <h4 id="text1">Hello!</h4>
+    <button onclick="setinterval()" id="setinterval">Set Interval</button>
+    <button onclick="clearinterval()" id="clearinterval">Clear Interval</button>
+    <h4 id="text2">Hello!</h4>
+    <button onclick="location.reload()">Refresh Page</button>
+    <br>-----------------------
+    <br><button onclick="fadeout()" id="fadeout">Fade Out</button>
+    <button onclick="fadein()" id="fadein">Fade In</button>
+    <br><img src="./photo.jpeg" id="img1" width="300">
+    <br>-----------------------
+    <br><img src="./photo.jpeg" width="100" onmouseover="increase()" onmouseout="decrease()" id="img2">
+    <br>-----------------------<br>
+    <h4 id="h4">Setting up JQuery</h4>
+    <button id="btn1" onclick="fn1()">JQuery Fade In/Out</button>
+    <br>-----------------------<br>
+    <h5 id="h5">(h5)Selectors in JQuery</h5>
+    <button id="btn2" onclick="fn2()">Click</button>
+    <p>Para1</p>
+    <a href="#">
+        <b>Paragraph outside div</b>
+    </a>
+    <div id="div1" class="mydiv">
+        <p>Paragraph no 1 in div1</p>
+        <p>Paragraph no 2 in div1</p>
+    </div>
+    <div id="div2" class="mydiv">
+        <p>Paragraph no 3 in div2</p>
+    </div>
+    <div id="div3" class="mydiv">
+        <ul>
+            <li class="item1">Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li>
+        </ul>
+    </div>
+</body>
+<script type="text/javascript" src="./index.js"></script>
+<script src="../jquery.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>-->
+</html>
