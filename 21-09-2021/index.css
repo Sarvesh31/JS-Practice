@@ -1,0 +1,17 @@
+.mydivs {
+    border: 2px solid purple;
+    padding: 10px;
+    margin: 10px;
+}
+.lorem{
+    background-color: cadetblue;
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    /* padding: 5px; */
+    margin: 10px;
+    text-align: center;
+}
+#div{
+    border: 1px solid black;
+}
